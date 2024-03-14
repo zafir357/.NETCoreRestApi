@@ -1,0 +1,887 @@
+{
+	"info": {
+		"_postman_id": "cf46c7b7-b3bb-41db-9265-d5016ea0af22",
+		"name": "APIEquipe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18724262"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Equipe",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Equipe/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Equipe/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Equipe",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Equipe/:id",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -48866465,\n  \"nomEquipe\": \"mollit occaecat officia laboris\",\n  \"idJoueur\": [\n    -8193690,\n    47554829\n  ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"id\": -48866465,\n  \"nomEquipe\": \"mollit occaecat officia laboris\",\n  \"idJoueur\": [\n    -8193690,\n    47554829\n  ]\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Equipe/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Equipe",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Equipe/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Equipe/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Equipe",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Get All Equipe",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/Equipe",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Equipe"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						},
+						{
+							"name": "/api/Equipe",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": -10277701,\n  \"nomEquipe\": \"et Lorem fugiat\",\n  \"idJoueur\": [\n    90564634,\n    36744499\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/Equipe",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Equipe"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": -48866465,\n  \"nomEquipe\": \"mollit occaecat officia laboris\",\n  \"idJoueur\": [\n    -8193690,\n    47554829\n  ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": -48866465,\n  \"nomEquipe\": \"mollit occaecat officia laboris\",\n  \"idJoueur\": [\n    -8193690,\n    47554829\n  ]\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/Equipe/Equipe/:id/Joueur/:idJoueur",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Equipe/Equipe/:id/Joueur/:idJoueur",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Equipe",
+										"Equipe",
+										":id",
+										"Joueur",
+										":idJoueur"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "-18429787",
+											"description": "(Required) "
+										},
+										{
+											"key": "idJoueur",
+											"value": "-18429787",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Equipe/Equipe/:id/Joueur/:idJoueur",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Equipe",
+												"Equipe",
+												":id",
+												"Joueur",
+												":idJoueur"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												},
+												{
+													"key": "idJoueur",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Joueur",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/api/Joueur/:id",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Joueur/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Joueur",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Joueur/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Joueur",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Joueur/:id",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": 10488130,\n  \"nomJoueur\": \"nulla cu\",\n  \"prenomJoueur\": \"ullamco culpa tempor\",\n  \"equipeFK\": -40978\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Joueur/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Joueur",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"id\": 10488130,\n  \"nomJoueur\": \"nulla cu\",\n  \"prenomJoueur\": \"ullamco culpa tempor\",\n  \"equipeFK\": -40978\n}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Joueur/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Joueur",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/api/Joueur/:id",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Joueur/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Joueur",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "-18429787",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Success",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/api/Joueur/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Joueur",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "-18429787",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"body": ""
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Get All Joueurs",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/Joueur",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Joueur"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/Joueur",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Joueur"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/api/Joueur",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": 10488130,\n  \"nomJoueur\": \"nulla cu\",\n  \"prenomJoueur\": \"ullamco culpa tempor\",\n  \"equipeFK\": -40978\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/Joueur",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"Joueur"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": 10488130,\n  \"nomJoueur\": \"nulla cu\",\n  \"prenomJoueur\": \"ullamco culpa tempor\",\n  \"equipeFK\": -40978\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Joueur",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Joueur"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": 10488130,\n  \"nomJoueur\": \"nulla cu\",\n  \"prenomJoueur\": \"ullamco culpa tempor\",\n  \"equipeFK\": -40978\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "/logger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/logger",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"logger"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/logger",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"logger"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Get Weather Forecast",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/WeatherForecast",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/WeatherForecast",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"WeatherForecast"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"date\": \"2022-12-30T06:56:46.979Z\",\n    \"temperatureC\": 10192075,\n    \"temperatureF\": -10991443,\n    \"summary\": \"labore eu ex\"\n  },\n  {\n    \"date\": \"1995-12-22T08:35:38.464Z\",\n    \"temperatureC\": -63064910,\n    \"temperatureF\": -62255193,\n    \"summary\": \"consequat\"\n  }\n]"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
